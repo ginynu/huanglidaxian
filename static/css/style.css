@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    padding: 0 14px;
+}
+.hide{
+    display: none;
+}
+.date{
+    display: flex;
+    color: rgb(0, 140, 202);
+}
+.date span{
+    flex: 1;
+    padding: 4px;
+    text-align: center;
+    font-size: 22px;
+    font-family: '微软雅黑';
+
+}
+.date .small{
+    font-size: 14px;
+    padding: 8px;
+}
+.day{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.day p{
+    width: 115px;
+    height: 75px;
+    background-color: rgb(0, 181, 224);
+    text-align: center;
+    margin: 16px auto;
+    line-height: 75px;
+    font-size: 91px;
+    color: #fff;
+    font-family: kaiti;
+}
+.floatWords{
+    position: absolute;
+    left: 0;
+    bottom: 16px;
+    width: 92px;
+}
+.bg{
+    width: 50%;
+    margin-bottom: 16px;
+}
+.list{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid rgb(0,140,202);
+}
+.list p{
+    padding: 10px;
+    border-bottom: 1px solid rgb(0,140,202);
+}
+.list img{
+    width: 38px;
+}
+.list li{
+    padding: 8px;
+    font-size: 14px;
+}
+.positive li:nth-child(odd){
+    background-color: #e7e9e7;
+}
+.nagative li:nth-child(even){
+    background-color: #e7e9e7;
+}
+.nagative p{
+    background-color: #e7e9e7;
+}
+.slogan{
+    margin: 42px 0;
+    position: relative;
+    border: 1px solid #333;
+    padding: 20px;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+.slogan::before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    background-color: rgb(0, 181, 224);
+}
